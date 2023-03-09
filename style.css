@@ -2,12 +2,20 @@
     margin: 0 ;
     padding: 0;
 }
-.cabecalho {background-color: rgb(97, 37, 37);
+.cabecalho {background-color: rgb(141, 15, 15);
 color:aliceblue;
 display: flex;
-justify-content: space-evenly;}
+justify-content: space-evenly;
+padding: 24px 0;}
 .cabecalho-imagem{width: 10%;}
 .cabecalho-lista-itens{
     display: inline-block;
     margin: 0 16px;
+    padding: 24px 0;
+    font-size: 20px;
 }
+h1
+{display: inline-block;
+margin: 0 16px;
+padding: 80px 0;
+font-size: 40px;}
