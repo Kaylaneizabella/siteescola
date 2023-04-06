@@ -2,6 +2,11 @@
     margin: 0 ;
     padding: 0;
 }
+
+
+body{font-family: Arial, Helvetica, sans-serif;}
+
+
 .cabecalho {background-color: rgb(141, 15, 15);
 color:aliceblue;
 display: flex;
@@ -24,8 +29,7 @@ padding: 40px 0;
 font-size: 20px;}
 
 .escola-imagem{
-    width: 10%;
-}
+    width: 10%;}
 
 .escola{
     background-image: linear-gradient(rgb(138, 13, 13),black);
@@ -43,7 +47,7 @@ font-size: 20px;}
 {padding: 50px 30px;}
 
 .aluno-um {
-    width: 12%;
+    width: 10%;
 }
  
 .estudante-icone
@@ -61,3 +65,15 @@ font-size: 20px;}
 
 .estudante-div2
 { text-align: center;}
+
+.alunos-titulo
+{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.estudante-todos
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
