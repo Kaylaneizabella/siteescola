@@ -47,7 +47,8 @@ font-size: 20px;}
 {padding: 50px 30px;}
 
 .aluno-um {
-    width: 10%;
+    width: 30%;
+    height: 200px;
 }
  
 .estudante-icone
@@ -57,7 +58,8 @@ font-size: 20px;}
 { text-align: center;}
 
 .aluno-dois {
-    width: 10%;
+    width: 30%;
+    height: 200px;
 }
  
 .estudante-icone
@@ -75,5 +77,5 @@ font-size: 20px;}
 .estudante-todos
 {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 20% 20% 25% 25%;
 }
